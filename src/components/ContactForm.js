@@ -16,7 +16,7 @@ const ContactForm = () => {
         <div>
           <label htmlFor="firstName">First Name*</label>
           <input
-          id = 'firstName'
+          id='firstName'
             name="firstName"
             placeholder="Edd"
             ref={register({ required: true, maxLength: 3 })}
@@ -57,7 +57,7 @@ const ContactForm = () => {
             {JSON.stringify(data, null, 2)}
           </pre>
         )}
-        <input id = 'submit' type="submit" />
+        <input id ='submit' type="submit"/>
       </form>
     </div>
   );
